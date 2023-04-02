@@ -122,10 +122,18 @@ h1 {
   main {
     flex-direction: column;
     padding-top: 60px;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding: 0 10px;
+    line-height: 35px;
   }
 
   p {
     text-align: center;
+    font-size: 1rem;
   }
 
   .message {

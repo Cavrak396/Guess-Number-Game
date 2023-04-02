@@ -30,12 +30,11 @@ check.addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       displayMessage('You lose!');
-      document.querySelector('body').style.backgroundColor = 're#FF0000';
+      document.querySelector('body').style.backgroundColor = '#FF0000';
     }
   } else if (guess < secretNumber) {
     if (score > 1) {
       displayMessage('To low!');
-      document.querySelector('body').style.backgroundColor = '';
       score--;
       document.querySelector('.score').textContent = score;
     } else {
