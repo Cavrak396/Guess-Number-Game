@@ -46,7 +46,7 @@ check.addEventListener('click', function () {
 });
 
 again.addEventListener('click', function () {
-  displayMessage('Start quessing');
+  displayMessage('Start quessing...');
   score = 10;
   document.querySelector('.score').textContent = score;
   document.querySelector('body').style.backgroundColor = '#222';
